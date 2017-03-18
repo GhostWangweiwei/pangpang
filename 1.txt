@@ -1,0 +1,77 @@
+    1  git config --list
+    2  git config --list user.name guigui
+    3  git config --global user.name guigui
+    4  git config --list
+    5  git config --global user.email 1033341017@qq.com
+    6  git config --list
+    7  clear
+    8  ls
+    9  cd d:
+   10  ls
+   11  mkidr gui
+   12  mkdir gui
+   13  cd gui
+   14  ls
+   15  mkdir a && cd a
+   16  cd ../
+   17  cd ..
+   18  git gui
+   19  cd gui
+   20  ls
+   21  ls -l
+   22  ls -al
+   23  git init
+   24  touch index.txt
+   25  ls
+   26  cat index.txt
+   27  rm index.txt
+   28  touch index.txt
+   29  vi index.txt 
+   30  cat index.txt
+   31  vi index.txt
+   32  cat index.txt
+   33  git status
+   34  git add .
+   35  git status
+   36  git commit
+   37  git status
+   38  git log
+   39  vi index.txt
+   40  cat index.txt
+   41  git diff
+   42  git add .
+   43  git diff
+   44  clear
+   45  git diff --cached
+   46  git diff master
+   47  vi index.txt
+   48  git diff master
+   49  git diff
+   50  git diff master
+   51  git diff cached
+   52  git diff --cached
+   53  vi index.txt
+   54  git status
+   55  cat index.txt
+   56  vi index.txt
+   57  git status
+   58  git add .
+   59  git status
+   60  git commit -m "pangzhi"
+   61  git push
+   62  git status
+   63  vi index.txt
+   64  git status
+   65  git add .
+   66  git status
+   67  git reset HEAD index.txt
+   68  git status
+   69  git add .
+   70  vi index.txt
+   71  git add .
+   72  git commit -m "test reset HEAD and git checkout index.txt"
+   73  git log
+   74  history > index.txt
+   75  git checkout .
+   76  cat index.txt
+   77  history > 1.txt
